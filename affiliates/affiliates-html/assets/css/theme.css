@@ -19,9 +19,9 @@ a {
 a,a:hover {
 	transition:all 0.2s;
 }
-#cla-icon{
-    width: 110px;
-    height: 60px;
+#logo-inicio{
+    width: 180px;
+    height: 70px;
 }
 pre {
     -moz-box-sizing: border-box;
@@ -41,6 +41,7 @@ pre {
 img-fluid{
     margin: 20px;
 }
+
 .mediumnavigation {
 	background: #fff;
         transition: top 0.5s ease-in-out;
@@ -316,7 +317,7 @@ span.post-name a,span.post-read-more a:hover {
     padding: 7px 1.5rem;
 }
 .mediumnavigation .nav-item,.dropdown-menu {
-	font-size:0.9rem;
+	font-size:18px;
 }
 .mediumnavigation .search-icon {
 	margin-left:-40px;
@@ -399,8 +400,8 @@ span.post-name a,span.post-read-more a:hover {
     margin-top: 10px;
 }
 .beforefooter {
-    background: #fff100;
-    color: #111;
+    background: #371c5a;
+    color: rgb(240, 232, 232);
     padding: 50px 0;
     max-width: 100%;
     margin: 0px auto;
@@ -718,11 +719,16 @@ background-color: #fff;
     position: relative;
     z-index: 2;
     display: inline-block;
-    padding: 0px 15px 0 15px;
+    padding: 0px 15px 0px 15px;
+    margin: 200px 0px 20px 0px;
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.col-sm-4{
+    background-image: linear-gradient(#f6c8ac,	#ebc8fb);
 }
 .sidebar h5:before {
     margin-bottom: 0;
